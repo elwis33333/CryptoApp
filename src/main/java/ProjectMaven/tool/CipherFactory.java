@@ -9,7 +9,7 @@ public class CipherFactory {
             case CESAR: return new CesarCipher();
             case ROT13: return new Rot13Cipher();
             case MATRIX: return new MatrixCipher();
-            case ATBSH: return new AtBashCipher();
+            case ATBASH: return new AtBashCipher();
             case SHA256:;
             case VIGENERE:;
             default: return new NonCipher();

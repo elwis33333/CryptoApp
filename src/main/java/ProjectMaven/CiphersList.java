@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public enum CiphersList {
     CESAR("Cesar"),
     ROT13("ROT-13"),
-    ATBSH("AtBash"),
+    ATBASH("AtBash"),
     MATRIX("Matrix"),
     SHA256("SHA256"),
     VIGENERE("Vigenere");
